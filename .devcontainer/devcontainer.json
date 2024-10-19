@@ -13,7 +13,8 @@
                 "rust-lang.rust-analyzer",
                 "usernamehw.errorlens",
                 "vadimcn.vscode-lldb",
-                "Codeium.codeium"
+                "Codeium.codeium",
+                "fill-labs.dependi"
             ]
         }
     },
