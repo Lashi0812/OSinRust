@@ -1,0 +1,6 @@
+[package]
+name = "ch_03a_simple_print_strace"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
