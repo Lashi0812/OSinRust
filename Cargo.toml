@@ -1,5 +1,5 @@
 [workspace]
 
-members = ["ch_01_os_timing", "ch_02_stack"]
+members = ["ch_01_os_timing", "ch_02_stack", "ch_03_byte_write"]
 
 resolver = "2"

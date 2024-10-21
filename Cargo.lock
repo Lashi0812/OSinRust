@@ -14,6 +14,10 @@ name = "ch_02_stack"
 version = "0.1.0"
 
 [[package]]
+name = "ch_03_byte_write"
+version = "0.1.0"
+
+[[package]]
 name = "libc"
 version = "0.2.161"
 source = "registry+https://github.com/rust-lang/crates.io-index"
