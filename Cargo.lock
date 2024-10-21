@@ -47,6 +47,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "ch_04_signal_logger"
+version = "0.1.0"
+dependencies = [
+ "nix",
+]
+
+[[package]]
 name = "libc"
 version = "0.2.161"
 source = "registry+https://github.com/rust-lang/crates.io-index"
