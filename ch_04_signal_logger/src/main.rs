@@ -28,7 +28,11 @@ fn main() {
 
     loop {
         if CHANGED.load(Ordering::SeqCst) {
-            println!("Signal received {}", SIGNAL_NUMBER.load(Ordering::SeqCst));
+            println!(
+                "[PID : {}] Signal received {}",
+                std::process::id(),
+                SIGNAL_NUMBER.load(Ordering::SeqCst)
+            );
             CHANGED.store(false, Ordering::SeqCst);
         }
     }
