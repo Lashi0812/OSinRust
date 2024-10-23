@@ -1,5 +1,5 @@
 [workspace]
 
-members = ["ch_01_os_timing", "ch_02_stack", "ch_03_byte_write", "ch_03a_simple_print_strace", "ch_04_signal", "ch_04_signal_logger", "ch_05_fork"]
+members = ["ch_01_os_timing", "ch_02_stack", "ch_03_byte_write", "ch_03a_simple_print_strace", "ch_04_signal", "ch_04_signal_logger", "ch_05_fork", "ch_06_thread_counter"]
 
 resolver = "2"
